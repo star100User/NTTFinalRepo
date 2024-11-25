@@ -1,0 +1,51 @@
+ 7. Selenium Grid    
+10. Working with Multiple Browsers (Chrome, Firefox, etc.)  
+11. Locating Web Elements  
+12. Different Types of Locators in Selenium  
+13. Actions Class  
+14. Mouse and Keyboard Interactions (Click, Double-click, Right-click, etc.)  
+15. Handling Alerts, Pop-ups, and Modals  
+16. Handling IFrames and Windows  
+17. Switching Between Windows and Frames  
+18. Handling Dropdowns and Select Menus  
+19. Working with Radio Buttons and Checkboxes  
+20. Handling Text Boxes and Form Elements  
+21. File Upload and Download Automation  
+22. Waiting Mechanisms in Selenium  
+23. Handling JavaScript Executor  
+24. WebDriver Navigation Methods  
+25. Capture Screenshots in Selenium  
+26. Selenium WebDriver Best Practices  
+27. Page Object Model (POM) Design Pattern  
+28. TestNG with Selenium  
+29. JUnit with Selenium  
+30. Selenium with Maven for Build Automation    
+32. Integration with Continuous Integration (CI) Tools (Jenkins, Travis CI)  
+33. Running Selenium Tests in Parallel  
+34. Handling Dynamic Web Elements
+35. Selenium Wait Strategies  
+36. Data-Driven Testing with Selenium (Using Excel, CSV, etc.)  
+37. Keyword-Driven Testing with Selenium  
+38. Selenium Grid for Cross-browser Testing  
+39. Selenium WebDriver with JavaScript (JS Execution)    
+42. PageFactory in Selenium  
+47. Selenium WebDriver Waits: Expected Conditions  
+48. Handling Stale Element Reference Exception  
+49. Selenium WebDriver in Cloud (Sauce Labs, BrowserStack)  
+50. Selenium Reporting and Logs (Allure, Extent Reports)   
+52. WebDriver Commands (get, navigate, etc.)  
+53. Handling Dynamic Content with Selenium  
+54. Working with Cookies in Selenium  
+56. Handling Frames and Web Tables in Selenium   
+59. Using Maven for Selenium Dependency Management  
+60. Selenium with Cucumber for BDD Testing    
+62. Advanced XPath Techniques in Selenium  
+63. Web Scraping with Selenium  
+64. Handling Browser Window Resizing in Selenium  
+65. Interacting with Hidden Web Elements in Selenium  
+66. Using Custom Waits in Selenium  
+67. Capturing Browser Logs with Selenium  
+68. Automating Web Forms in Selenium  
+69. Using Screen Recording with Selenium  
+72. Selenium WebDriver with TestNG for Parallel Execution  
+73. Handling Synchronization Issues in Selenium  

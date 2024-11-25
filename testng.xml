@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.automation.listner.ListenerTest" />
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.automation.baseClasses.Hooks" />
+			<class name="com.automation.testcases.productDetailsTest" />
+			<class name="com.automation.testcases.cartPageTest" />
+			<class name="com.automation.testcases.careersTest" />
+			<class name="com.automation.testcases.HomeTest" />
+			<class name="com.automation.testcases.checkOutPageTest" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

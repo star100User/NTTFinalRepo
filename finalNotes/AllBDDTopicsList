@@ -1,0 +1,58 @@
+1. Gherkin Syntax
+   1. Given-When-Then
+   2. Features
+   3. Scenarios
+   4. Steps
+   5. Step Definitions
+   6. Cucumber hooks (Before, After, BeforeStep, AfterStep)
+
+2. Writing Gherkin Syntax
+   1. Scenarios and Scenario Outline
+   2. Tags in Cucumber
+   3. Data Tables and Examples
+   4. Background in Cucumber
+
+3. Step Definitions
+   1. Writing Step Definitions for Gherkin steps
+   2. Regular expressions in step definitions
+   3. Binding methods in step definitions
+   4. Sharing data between steps (using ScenarioContext, etc.)
+
+4. Cucumber Hooks
+   1. @Before and @After hooks
+   2. @BeforeStep and @AfterStep hooks
+   3. Hooks in parallel execution
+
+5. Parameterization and Data-Driven Testing
+   1. Using Scenario Outline with Examples
+   2. Data Tables and how to use them in Cucumber
+   3. Reading data from external sources (e.g., Excel, CSV)
+   4. Cucumber expressions for step parameters
+
+6. Cucumber Reporting
+   1. Generating Cucumber reports
+   2. Cucumber JSON and HTML reports
+   3. Integrating Cucumber with other reporting tools (e.g., Allure, Extent Reports)
+
+7. Cucumber Integration with Testing Frameworks
+   1. Integrating Cucumber with JUnit/TestNG (Java)
+   2. Cucumber with Selenium WebDriver for UI testing
+   3. Parallel execution of tests
+
+8. Cucumber Best Practices
+   1. Organizing feature files and step definitions
+   2. Avoiding duplication in step definitions
+   3. Using Tags effectively for test execution filtering
+   4. Using Background efficiently
+
+9. Advanced Cucumber Concepts
+   1. Using Cucumber Expressions vs Regular Expressions
+   2. Running tests in parallel (using Cucumber with Maven, JUnit, or TestNG)
+   3. Data-driven testing in detail
+   4. Customizing step definition bindings and parameters
+   5. Using ScenarioContext and World objects to share data
+
+10. Cucumber in Continuous Integration
+    1. Running Cucumber tests in CI/CD pipelines
+    2. Integrating with Jenkins, GitLab, etc.
+    3. Using Cucumber reports for CI/CD feedback

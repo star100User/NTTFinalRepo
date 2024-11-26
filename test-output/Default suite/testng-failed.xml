@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.executionFiles.Base">
+      <class name="com.automation.pageFactory.testClassTocheckPageFactory">
         <methods>
-          <include name="TestM"/>
-          <include name="end"/>
-          <include name="start"/>
+          <include name="M1"/>
         </methods>
-      </class> <!-- com.automation.executionFiles.Base -->
+      </class> <!-- com.automation.pageFactory.testClassTocheckPageFactory -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,6 @@
+com\automation\stepdefinitions\careersSD.class
+com\automation\testcases\careersTest.class
+com\automation\testcases\checkOutPageTest.class
+com\automation\testcases\cartPageTest.class
+com\automation\testcases\productDetailsTest.class
+com\automation\testcases\HomeTest.class

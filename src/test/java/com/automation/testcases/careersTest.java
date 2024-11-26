@@ -53,12 +53,12 @@ public class careersTest {
 	public void verifyCareersPageFunctionalityFromDataBase() throws IOException {
 
 		String query ="select * from careersTable";
-		String name = dBConnectionActions.executeQueryAndReturnResult(query, "name").getFirst();
-		String email = dBConnectionActions.executeQueryAndReturnResult(query, "email").getFirst();
-		String mobile = dBConnectionActions.executeQueryAndReturnResult(query, "mobile").getFirst();
-		String position = dBConnectionActions.executeQueryAndReturnResult(query, "position").getFirst();
-		String qualification = dBConnectionActions.executeQueryAndReturnResult(query, "qualification").getFirst();
-		String msg = dBConnectionActions.executeQueryAndReturnResult(query, "msg").getFirst();
+		String name = dBConnectionActions.executeQueryAndReturnResult(query, "name").get(0);
+		String email = dBConnectionActions.executeQueryAndReturnResult(query, "email").get(0);
+		String mobile = dBConnectionActions.executeQueryAndReturnResult(query, "mobile").get(0);
+		String position = dBConnectionActions.executeQueryAndReturnResult(query, "position").get(0);
+		String qualification = dBConnectionActions.executeQueryAndReturnResult(query, "qualification").get(0);
+		String msg = dBConnectionActions.executeQueryAndReturnResult(query, "msg").get(0);
 
 		careersPage.FillFullCareersForm(name, email, mobile, position, qualification, msg);
 

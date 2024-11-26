@@ -2,11 +2,11 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>NTTData_AutomationProject</groupId>
-	<artifactId>NTTData_AutomationProject</artifactId>
+	<groupId>NTTFinalDemoForStudents</groupId>
+	<artifactId>NTTFinalDemoForStudents</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>NTTData_AutomationProject</name>
-	<description>NTTData_AutomationProject</description>
+	<name>NTTFinalDemoForStudents</name>
+	<description>NTTFinalDemoForStudents</description>
 
 	<dependencies>
 		<!--
@@ -52,11 +52,6 @@
 			<version>8.0.33</version>
 		</dependency>
 
-		<dependency>
-			<groupId>com.aventstack</groupId>
-			<artifactId>extentreports</artifactId>
-			<version>5.0.9</version> <!-- Use the latest version -->
-		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
 		<dependency>
@@ -92,6 +87,29 @@
 			<version>3.1.5</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-surefire-plugin</artifactId>
+			<version>3.5.2</version>
+		</dependency>
 
 	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.19.1</version>
+				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>
+							C:\Users\als22\eclipse-workspace\Automation_Code\NTTFinalDemoForStudents\testng.xml</suiteXmlFile> <!--
+						Update this path to the new testng.xml -->
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
 </project>
